@@ -39,7 +39,7 @@ public class T03ByteArrayIOTest {
 			///10번째까지 읽고 11번은 더이상 가져올 데이터가 없다, 더이상 읽을 바이트가 없다는 뜻이 -1이 나와서 while문이 멈추게 된다
 			/// 바이트 데이터는 0부터 225를 말한다. int타입으로 데이터(int data)를 리턴 받으면 byte든 아니든 마이너스 값까지 처리 가능
 			
-			baos.write(data); ///baos여기에 데이턱 들어갔고 이제 outSrc 여기에 넣어보자
+			baos.write(data); ///baos여기에 데이터 들어갔고 이제 outSrc 여기에 넣어보자
 		}///IO작업 끝남
 		
 		outSrc = baos.toByteArray();
