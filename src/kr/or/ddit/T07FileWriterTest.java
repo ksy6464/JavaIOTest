@@ -20,6 +20,8 @@ public class T07FileWriterTest {
 		///가독성을 위해서 try/catch 안쓰고 던져주겠다
 		FileWriter fw = new FileWriter("d:/D_Other/testChar.txt");
 		///문자 기반 처리하는것
+		///텍스트 데이터를 파일에 저장할 때 사용하는 문자기반 스트림이다. 문자 단위로 저장하기 때문에 텍스트가 아닌 그림, 오디오, 비디ㅣ오 등의 데이터를 저장할 수 없다. 
+
 		
 		int data = 0;
 		
