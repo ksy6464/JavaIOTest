@@ -25,7 +25,7 @@ public class T07FileWriterTest {
 		
 		System.out.println("아무거나 입력하세요.");
 		
-		// 콘솔에서 입력할때 입력의 끝(EOF)을 나타내기 위해서는 Curl+Z 키를 누르면 된다.
+		// 콘솔에서 입력할때 입력의 끝(EOF)을 나타내기 위해서는 Ctrl +Z 키를 누르면 된다.
 		/// End Of File이 -1 역할을 한다
 //		while ((data = System.in.read())!=-1) { ///이렇게 하면 바이트 기반이라서 한글을 표현할 수가 없다
 		while ((data = isr.read())!=-1) {
