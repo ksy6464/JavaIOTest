@@ -31,7 +31,7 @@ public class T14PrintStreamTest {
 		
 		/*
 		  	PrintWriter는 데이터를 문자로 출력하는 기능을 제공한다.
-		  	PrintStream보다 향상된 기능을 제공하지만 계속 PrintStream이 사용된고 있음.
+		  	PrintStream보다 향상된 기능을 제공하지만 계속 PrintStream이 사용되고 있음.
 		  	PrintWriter는 다양한 인코딩 처리를 하는데 적합한 스트림 클래스이다.
 		 */
 		
